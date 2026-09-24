@@ -11,7 +11,7 @@ def property_tax_calc(assess_value: float) -> float:
     tax = assess_value // 100 * PROP_TAX
     return tax
 
-def main():
+def main() -> None:
     prop_value = float(input("Enter the actual property value: "))
     assess_value = assessment_calc(prop_value)
     prop_tax = property_tax_calc(assess_value)
