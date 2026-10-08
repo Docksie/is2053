@@ -1,0 +1,3 @@
+Hello!
+Welcome to IS 2053.
+Python can work with files.
